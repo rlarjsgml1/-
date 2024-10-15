@@ -97,19 +97,19 @@
         app:layout_constraintVertical_bias="0.579" />
 
     <ImageView
+        android:id="@+id/happguy"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_columnWeight="1"
         android:layout_gravity="center"
         android:contentDescription="월별축제"
-        android:id="@+id/happguy"
         android:src="@drawable/happyguy"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.286"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.731" />
+        app:layout_constraintVertical_bias="0.705" />
 
     <ImageView
         android:layout_width="52dp"
@@ -122,7 +122,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.73" />
+        app:layout_constraintVertical_bias="0.705" />
 
     <ImageView
         android:layout_width="52dp"
@@ -135,7 +135,7 @@
         app:layout_constraintHorizontal_bias="0.701"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.73" />
+        app:layout_constraintVertical_bias="0.705" />
 
     <ImageView
         android:layout_width="52dp"
@@ -229,5 +229,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view"
         app:layout_constraintVertical_bias="0.727" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="월별축제"
+        app:layout_constraintBottom_toTopOf="@+id/btn_field"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.286"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/happguy"
+        app:layout_constraintVertical_bias="0.823" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
